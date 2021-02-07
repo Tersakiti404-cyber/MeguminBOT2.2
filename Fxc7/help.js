@@ -8,7 +8,7 @@ ${instagram}
 ${yt}
 
 \`\`\`GROUP OFFICIAL\`\`\`
-https://chat.whatsapp.com/Hpwp8FBfJMtHEN5KeuFJKw
+https://chat.whatsapp.com/E4S9IHJJQaa2r9nOcGWkjH
 
 
 \`\`\`HARAP BACA NOTE DIBAWAH SEBELUM\`\`\`
@@ -364,11 +364,11 @@ https://chat.whatsapp.com/Hpwp8FBfJMtHEN5KeuFJKw
 
 ╭─────「 *SUPPORT ${name}* 」
 │
-├➲ *ANKER*
-├➲ *RYY*
-├➲ *AGUNG*
-├➲ *NAZWA*
-├➲ *MY TEAM DNS BOT*
+├➲ *FAJAR*
+├➲ *DEBBY*
+├➲ *MIKO*
+├➲ *FARHAN*
+├➲ *DNS BOT*
 ╰────────────────────────`
 }
 
