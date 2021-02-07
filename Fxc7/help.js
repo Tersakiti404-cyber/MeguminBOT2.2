@@ -77,35 +77,35 @@ https://chat.whatsapp.com/E4S9IHJJQaa2r9nOcGWkjH
 │➻ *${prefix}trigger reply image*
 │➻ *${prefix}rip reply image*
 │➻ *${prefix}wasted reply image*
-│➻ *${prefix}cphlogo DNS/BOT*
-│➻ *${prefix}cglitch DNS/BOT*
-│➻ *${prefix}cpubg DNS/BOT*
-│➻ *${prefix}cml DNS*
+│➻ *${prefix}cphlogo 𝙼𝚎𝚐𝚞𝚖𝚒𝚗/𝙱𝙾𝚃*
+│➻ *${prefix}cglitch 𝙼𝚎𝚐𝚞𝚖𝚒𝚗/𝙱𝙾𝚃*
+│➻ *${prefix}cpubg 𝙼𝚎𝚐𝚞𝚖𝚒𝚗/𝙱𝙾𝚃*
+│➻ *${prefix}cml 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
 │
-│➻ *${prefix}tahta DNS*
-│➻ *${prefix}croman DNS dan BOT*
-│➻ *${prefix}cthunder DNS*
-│➻ *${prefix}cbpink DNS*
-│➻ *${prefix}cmwolf DNS*
-│➻ *${prefix}csky DNS*
-│➻ *${prefix}cwooden DNS*
-│➻ *${prefix}cflower DNS*
-│➻ *${prefix}clove DNS*
-│➻ *${prefix}ccrossfire DNS*
-│➻ *${prefix}cnaruto DNS*
-│➻ *${prefix}cparty DNS*
-│➻ *${prefix}cshadow DNS*
-│➻ *${prefix}cminion DNS*
-│➻ *${prefix}cneon DNS*
-│➻ *${prefix}cneon2 DNS*
-│➻ *${prefix}cneongreen DNS*
-│➻ *${prefix}c3d DNS*
-│➻ *${prefix}csky DNS*
+│➻ *${prefix}tahta 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}croman 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 dan 𝙱𝙾𝚃*
+│➻ *${prefix}cthunder 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cbpink 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cmwolf 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}csky 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cwooden 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cflower 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}clove 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}ccrossfire 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cnaruto 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cparty 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cshadow 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cminion 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cneon 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cneon2 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cneongreen 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}c3d 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}csky 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
 │➻ *${prefix}tts id Haii*
-│➻ *${prefix}ttp DNS*
-│➻ *${prefix}cballon DNS*
-│➻ *${prefix}cpaper DNS*
-│➻ *${prefix}slide DNS BOT WA*
+│➻ *${prefix}ttp 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cballon 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}cpaper 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃*
+│➻ *${prefix}slide 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 WA*
 │
 │➻ *${prefix}stiker*
 │➻ *${prefix}gifstiker*
@@ -232,18 +232,18 @@ https://chat.whatsapp.com/E4S9IHJJQaa2r9nOcGWkjH
 
 ╭──────────────────────────
 ┴
-│➻ *${prefix}jarak Banyuwangi/Surabaya*
+│➻ *${prefix}jarak Bojonegoro/Jakarta*
 │➻ *${prefix}translate en/Apa kabar?*
-│➻ *${prefix}pasangan Denis/Hmm*
-│➻ *${prefix}gantengcek Denis*
-│➻ *${prefix}jelekcek Bot*
-│➻ *${prefix}cantikcek Caca*
-│➻ *${prefix}artinama Denis*
-│➻ *${prefix}persengay Eka*
-│➻ *${prefix}ewe Bot*
-│➻ *${prefix}pbucin Denis*
-│➻ *${prefix}bpfont Denis*
-│➻ *${prefix}textstyle DNS*
+│➻ *${prefix}pasangan Fajar/Hmm*
+│➻ *${prefix}gantengcek Fajar*
+│➻ *${prefix}jelekcek surya*
+│➻ *${prefix}cantikcek Debby*
+│➻ *${prefix}artinama Fajar*
+│➻ *${prefix}persengay Arif*
+│➻ *${prefix}ewe Caca*
+│➻ *${prefix}pbucin Fajar*
+│➻ *${prefix}bpfont Fajar*
+│➻ *${prefix}textstyle Megumin BOT*
 │➻ *${prefix}jadwaltv antv*
 │➻ *${prefix}lirik melukis senja*
 │➻ *${prefix}chord Melukis senja*
@@ -319,7 +319,7 @@ https://chat.whatsapp.com/E4S9IHJJQaa2r9nOcGWkjH
 │➻ *${prefix}spamcall 083xxxxxxxxx*
 │➻ *${prefix}spambrutal 083xxxxxxxxx*
 │➻ *${prefix}spamsms 083xxxxxxxx/jumlah*
-│➻ *${prefix}spamgmail denisputra@gmail.com*
+│➻ *${prefix}spamgmail mochammadfajaralfarizi12@gmail.com*
 ┬
 ╰────────────────────────
 
