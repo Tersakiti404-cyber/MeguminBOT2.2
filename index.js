@@ -61,18 +61,18 @@ instagram, yt, groupLink, memberLimit
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:デ ニ ス\n'
-            + 'ORG:Creator Dns Bot;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285866295942:+62 858-66295-942\n'
+            + 'FN:Fajar Alfarizi\n'
+            + 'ORG:Creator 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62 813-3378-2061\n'
             + 'END:VCARD'
 
 prefix = "!"
-name = "~ D N S | B O T"
+name = "~ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃"
 rdaftar = "TERIMA KASIH TELAH DAFTAR😁"
-rmenu = "デ ニ ス"
+rmenu = "Fajar Alfarizi"
 limitt = 99999999
 ban = []
-userpremium = ["6285866295942@s.whatsapp.net" , "6285876210829@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["6281333782061@s.whatsapp.net" , "6282250221294@s.whatsapp.net"] //ubah nomer kalian
 
 function kyun(seconds){
   function pad(s){
@@ -157,8 +157,8 @@ const getRegisteredRandomId = () => {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const DenisGans = ["6285866295942@s.whatsapp.net"] // ubah aja gapapa
-			const denis = mek.message.conversation
+			const FajarGans = ["6281333782061@s.whatsapp.net"] // ubah aja gapapa
+			const fajar = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
 			pushname2 = client.contacts[nameReq] != undefined ? client.contacts[nameReq].vname || client.contacts[nameReq].notify : undefined
@@ -224,7 +224,7 @@ const getRegisteredRandomId = () => {
             ]
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6285866295942@s.whatsapp.net" , "6285876210829@s.whatsapp.net" , "6281567973372@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6281333782061@s.whatsapp.net" , "6282250221294@s.whatsapp.net" , "6285798640742@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -399,7 +399,7 @@ const getRegisteredRandomId = () => {
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('kamu sudah terdaftar')
 					if (isBanned) return reply(mess.only.benned)
-					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama/umur\nContoh : ${prefix}daftar Denis/17/Banyuwangi`)
+					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama/umur\nContoh : ${prefix}daftar Denis/18/Bojonegoro`)
 					reg = `${body.slice(8)}`
 					jeneng = reg.split("/")[0];
 					umure = reg.split("/")[1];
@@ -412,7 +412,7 @@ const getRegisteredRandomId = () => {
 					if (asal.length >= 20) return reply('itu daerah mana gan🤔')
 					user.push(sender)
 					fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-					await costum(`\`\`\`Pendaftaran berhasil dengan SN: TM08GK8PPHBSJDH10J\`\`\`\n\n\`\`\`Pada ${date} ${time}\`\`\`\n\`\`\`[Nama]: ${jeneng}\`\`\`\n\`\`\`[Nomor]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[Umur]: ${umure} Tahun\`\`\`\n\`\`\`[Asal]: ${asal}\`\`\`\n\`\`\`Untuk menggunakan bot\`\`\`\n\`\`\`silahkan\`\`\`\n\`\`\`kirim ${prefix}help/menu\`\`\`\n\`\`\`\nTotal Pengguna: ${user.length} Orang\`\`\``, text, DenisGans, rdaftar)
+					await costum(`\`\`\`Pendaftaran berhasil dengan SN: TM08GK8PPHBSJDH10J\`\`\`\n\n\`\`\`Pada ${date} ${time}\`\`\`\n\`\`\`[Nama]: ${jeneng}\`\`\`\n\`\`\`[Nomor]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[Umur]: ${umure} Tahun\`\`\`\n\`\`\`[Asal]: ${asal}\`\`\`\n\`\`\`Untuk menggunakan bot\`\`\`\n\`\`\`silahkan\`\`\`\n\`\`\`kirim ${prefix}help/menu\`\`\`\n\`\`\`\nTotal Pengguna: ${user.length} Orang\`\`\``, text, FajarGans, rdaftar)
 					break 
 			case 'help':
 			case 'menu':
@@ -446,7 +446,7 @@ const getRegisteredRandomId = () => {
 					me = client.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ Total Pengguna: *${user.length}* User\n⟩➢ *Instagram* : https://www.instagram.com/denssptraa\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ Anker \n⟩➢ Ryy`
+					teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ Total Pengguna: *${user.length}* User\n⟩➢ *Instagram* : https://www.instagram.com/mhmdfjralfarizi_\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ Anker \n⟩➢ Ryy`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -1135,7 +1135,7 @@ const getRegisteredRandomId = () => {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6285866295942@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'request':
@@ -1150,7 +1150,7 @@ const getRegisteredRandomId = () => {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6285866295942@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
@@ -2416,7 +2416,7 @@ const getRegisteredRandomId = () => {
 						teks += `╠➥ @${mem.jid.split('@')[0]} wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 DNS BOT 〙═══', members_id, true)
+					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 〙═══', members_id, true)
 					break
 			    case 'mentionall':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -2429,7 +2429,7 @@ const getRegisteredRandomId = () => {
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 DNS BOT 〙', members_id, true)
+					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 〙', members_id, true)
 					break
 			    case 'kbbi':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -2481,7 +2481,7 @@ const getRegisteredRandomId = () => {
 					for (let _ of anu) {
 						client.deleteChat(_.jid)
 					}
-					reply(`\`\`\`Sukses delete all chat DNSBOT\`\`\``)
+					reply(`\`\`\`Sukses delete all chat 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃\`\`\``)
 					break
                                 case 'bcgc':
 					client.updatePresence(from, Presence.composing) 
@@ -3483,7 +3483,7 @@ const getRegisteredRandomId = () => {
 						console.log(muehe)
 						reply(muehe)
 					} else {
-						console.log(color('[DNSBOT]','red'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
+						console.log(color('[Megumin BOT]','red'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
 					}
                            }
 		} catch (e) {
