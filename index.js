@@ -406,7 +406,7 @@ const getRegisteredRandomId = () => {
 					asal = reg.split("/")[2];
 					if (jeneng.length < 1) return reply('namanya siapa??')
 					if (umure.length < 1) return reply('umurnya??')
-					if (jeneng.length >= 20) return reply(`buset panjang amat namanya`)
+					if (jeneng.length >= 20) return reply(`buset dah panjang amat namanya bor`)
 					if (umure.length >= 3, umure.length <= 1) return reply(`minimal umur 10 tahun keatas dan maximal 30 tahun`)
 					if (asal.length < 1) return reply('asal nya dari mars gan??')
 					if (asal.length >= 20) return reply('itu daerah mana gan🤔')
