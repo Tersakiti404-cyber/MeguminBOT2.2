@@ -52,7 +52,7 @@ https://chat.whatsapp.com/E4S9IHJJQaa2r9nOcGWkjH
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏╭──────「 *MEDIA DOWNLOADER* 」
 ┴
 │➻ *${prefix}tiktokstalk username*
-│➻ *${prefix}igstalk denssptraa*
+│➻ *${prefix}igstalk mhmdfjralfarizi_*
 │➻ *${prefix}insta Link*
 │➻ *${prefix}instastory username*
 │➻ *${prefix}ssweb url*
