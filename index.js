@@ -63,7 +63,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:Fajar Alfarizi\n'
             + 'ORG:Creator 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62 813-3378-2061\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6282252958505:+62 822-5295-8505\n'
             + 'END:VCARD'
 
 prefix = "!"
@@ -72,7 +72,7 @@ rdaftar = "TERIMA KASIH TELAH DAFTAR😁"
 rmenu = "Fajar Alfarizi"
 limitt = 99999999
 ban = []
-userpremium = ["6281333782061@s.whatsapp.net" , "6282250221294@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["6282252958505@s.whatsapp.net" , "6282250221294@s.whatsapp.net"] //ubah nomer kalian
 
 function kyun(seconds){
   function pad(s){
@@ -157,7 +157,7 @@ const getRegisteredRandomId = () => {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FajarGans = ["6281333782061@s.whatsapp.net"] // ubah aja gapapa
+			const FajarGans = ["6282252958505@s.whatsapp.net"] // ubah aja gapapa
 			const fajar = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
@@ -224,7 +224,7 @@ const getRegisteredRandomId = () => {
             ]
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6281333782061@s.whatsapp.net" , "6282250221294@s.whatsapp.net" , "6285798640742@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6282252958505@s.whatsapp.net" , "6282250221294@s.whatsapp.net" , "6285798640742@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -1135,7 +1135,7 @@ const getRegisteredRandomId = () => {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6282252958505@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'request':
@@ -1150,7 +1150,7 @@ const getRegisteredRandomId = () => {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6282252958505@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
@@ -3209,9 +3209,9 @@ const getRegisteredRandomId = () => {
 					if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
                 reply('Otw.....')
-                                       if (args[0].startsWith('08')) return reply('Gunakan nomor awalan 8/n ex : *8796662*')
-                                       if (args[0].startsWith('82255123081')) return reply('Gagal tidak dapat menelpon nomer bot')
-                                       if (args[0].startsWith('82387804410')) return reply('Gagal tidak dapat menelpon nomer owner')
+                                       if (args[0].startsWith('08')) return reply('Gunakan nomor awalan 8/n ex : *812345678*')
+                                       if (args[0].startsWith('81333782061')) return reply('Gagal tidak dapat menelpon nomer bot')
+                                       if (args[0].startsWith('82252958505')) return reply('Gagal tidak dapat menelpon nomer owner')
                                        var data = body.slice(10)
                                        await fetchJson(`https://core.ktbs.io/v2/user/registration/otp/62`+data, {method: 'get'})
                                        await fetchJson(`https://arugaz.herokuapp.com/api/spamcall?no=`+data, {method: 'get'})
